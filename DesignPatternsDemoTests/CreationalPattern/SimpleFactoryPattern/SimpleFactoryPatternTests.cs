@@ -1,9 +1,9 @@
-using DesignPatternsDemo.SimpleFactoryPattern;
+using DesignPatternsDemo.CreationalPattern.SimpleFactoryPattern;
 using Xunit;
 
-namespace DesignPatternsDemoTests.SimpleFactoryPattern
+namespace DesignPatternsDemoTests.CreationalPattern.SimpleFactoryPattern
 {
-    public class ProgramTests
+    public class SimpleFactoryPatternTests
     {
         [Fact]
         public void ShouldGetProductA()

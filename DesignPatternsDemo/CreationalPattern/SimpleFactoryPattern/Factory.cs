@@ -1,4 +1,4 @@
-namespace DesignPatternsDemo.SimpleFactoryPattern
+namespace DesignPatternsDemo.CreationalPattern.SimpleFactoryPattern
 {
     public static class Factory
     {
