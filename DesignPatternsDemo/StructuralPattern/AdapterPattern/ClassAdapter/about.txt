@@ -1,0 +1,5 @@
+C#等不支持多重继承的语言, 故不能实现。 （Java 也不支持）
+
+原理与对象适配器类似，Adapter继承Target和Adaptee，需要target对象但可通过适配器包装Adaptee获得。
+
+与对象适配器相比，保留了Adptee原有属性和方法。
