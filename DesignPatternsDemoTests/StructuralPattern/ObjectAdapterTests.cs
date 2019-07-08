@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using DesignPatternsDemo.StructuralPattern.AdapterPattern.ObjectAdapter;
 using Xunit;
 
-namespace DesignPatternsDemoTests.StructuralPattern.AdapterPattern
+namespace DesignPatternsDemoTests.StructuralPattern
 {
     public class ObjectAdapterTests
     {
