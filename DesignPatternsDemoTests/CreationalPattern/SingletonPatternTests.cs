@@ -12,8 +12,10 @@ namespace DesignPatternsDemoTests.CreationalPattern
             // var s = new Singleton();
 
             var singleton = Singleton.GetInstance();
+            var singleton2 = Singleton.GetInstance();
 
             Assert.NotNull(singleton);
+            Assert.Equal(singleton,singleton2);
         }
     }
 }
