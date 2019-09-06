@@ -8,7 +8,7 @@ namespace DesignPatternsDemoTests.StructuralPattern
         [Fact]
         public void ShouldGetRedCircle()
         {
-            var painter = new PainterA(new ColorA());
+            var painter = new CirclePainter(new ColorA());
 
             Assert.Equal("a paper with red circle", painter.Draw());
         }
@@ -16,7 +16,7 @@ namespace DesignPatternsDemoTests.StructuralPattern
         [Fact]
         public void ShouldGetGreenCircle()
         {
-            var painter = new PainterA(new ColorB());
+            var painter = new CirclePainter(new ColorB());
 
             Assert.Equal("a paper with green circle", painter.Draw());
         }
@@ -24,7 +24,7 @@ namespace DesignPatternsDemoTests.StructuralPattern
         [Fact]
         public void ShouldGetGreenLine()
         {
-            var painter = new PainterB(new ColorA());
+            var painter = new LinePainter(new ColorA());
 
             Assert.Equal("a paper with red line", painter.Draw());
         }
@@ -32,7 +32,7 @@ namespace DesignPatternsDemoTests.StructuralPattern
         [Fact]
         public void ShouldGetRedLine()
         {
-            var painter = new PainterB(new ColorB());
+            var painter = new LinePainter(new ColorB());
 
             Assert.Equal("a paper with green line", painter.Draw());
         }
